@@ -1,0 +1,86 @@
+---
+title: "Hyunseob Baik"
+description: "Geological remote sensing, hyperspectral imaging, LiDAR–HSI fusion, and planetary geology."
+page-layout: full
+body-classes: home-page
+toc: false
+---
+
+::: {.hero-section}
+::: {.hero-grid}
+::: {.hero-copy}
+<p class="eyebrow">Post-Doc. Researcher · KIGAM</p>
+
+# Hyunseob Baik
+
+<p class="hero-lede">Geological Remote Sensing · Hyperspectral Imaging · LiDAR–HSI Fusion · Planetary Geology</p>
+
+I am a postdoctoral researcher at the Mineral Exploration and Mining Research Center, Korea Institute of Geoscience and Mineral Resources (KIGAM). My work combines hyperspectral imaging, LiDAR, and geospatial analysis to map geological materials in underground, terrestrial, satellite, and planetary settings.
+
+[Explore research](research.qmd){.btn .btn-primary .hero-button}
+[View CV](cv.qmd){.btn .btn-outline-secondary .hero-button}
+:::
+
+::: {.hero-portrait}
+<img src="images/profile/hyunseob-baik.webp" class="profile-photo" alt="Portrait of Hyunseob Baik" width="900" height="1157">
+:::
+:::
+:::
+
+::: {.home-content}
+## Research focus
+
+::: {.research-grid}
+::: {.research-card}
+### Underground sensing
+
+Hyperspectral and LiDAR observations for spatially complex underground geological environments.
+
+[Research theme](research.qmd#underground-hyperspectrallidar-remote-sensing)
+:::
+
+::: {.research-card}
+### Mineral mapping
+
+VNIR–SWIR analysis, spectral target detection, and integration of laboratory, field, and satellite observations.
+
+[Research theme](research.qmd#hyperspectral-mineral-mapping)
+:::
+
+::: {.research-card}
+### Planetary geology & rover payloads
+
+Orbital remote sensing and rover-mounted payloads for mineral mapping, geological observation, and lunar and Martian exploration.
+
+[Research theme](research.qmd#planetary-geology-and-remote-sensing)
+:::
+
+::: {.research-card}
+### Robotic near-field sensing
+
+Ongoing rover and robotic-platform research for near-field remote sensing in underground mines and surface outcrops.
+
+[Research theme](research.qmd#robotic-near-field-geological-remote-sensing)
+:::
+:::
+
+## Selected publications
+
+::: {.publication-preview}
+**2026** — Baik, H., Park, J., Heo, J., Son, Y.-S., & Kim, K.-E. “Alignment and 3D georeferencing of tunnel coaxial hyperspectral scanning system data for mine drift exploration.” *Geo-spatial Information Science*. [DOI](https://doi.org/10.1080/10095020.2026.2712863)
+:::
+
+::: {.publication-preview}
+**2023** — Baik, H., Son, Y.-S., & Kim, K.-E. “A tunnel coaxial 3D hyperspectral scanning system for underground mine investigation.” *Scientific Reports*, 13, 10417. [DOI](https://doi.org/10.1038/s41598-023-37565-4)
+:::
+
+::: {.publication-preview}
+<span class="status-label">Manuscript under revision</span>
+
+**2026** — Baik, H., Cho, E., & Kim, K.-E. “Linear spectral unmixing with iterative error analysis for mineral mapping of Theophilus Crater using Moon Mineralogy Mapper (M³) hyperspectral data.” *Icarus*. Round 2 revision resubmitted.
+:::
+
+::: {.link-panel}
+[All publications](publications.qmd) · [Google Scholar](https://scholar.google.co.kr/citations?user=Fl7F5yIAAAAJ) · [ORCID](https://orcid.org/0000-0002-9282-6947) · [Contact](contact.qmd)
+:::
+:::

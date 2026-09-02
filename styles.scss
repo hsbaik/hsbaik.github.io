@@ -1,0 +1,235 @@
+/*-- scss:defaults --*/
+$font-family-sans-serif: "Segoe UI", Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+$headings-font-family: "Segoe UI", Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+$body-color: #25343b;
+$headings-color: #102f3b;
+$primary: #087f78;
+$link-color: #087f78;
+$navbar-bg: #f8fbfa;
+$navbar-fg: #17343d;
+$border-radius: 0.55rem;
+
+/*-- scss:rules --*/
+:root {
+  --site-ink: #17343d;
+  --site-muted: #586b73;
+  --site-accent: #087f78;
+  --site-accent-dark: #075f5b;
+  --site-pale: #eef7f5;
+  --site-line: #d7e4e1;
+}
+
+body {
+  line-height: 1.7;
+}
+
+a:focus-visible,
+button:focus-visible,
+.nav-link:focus-visible {
+  outline: 3px solid #e0a11a;
+  outline-offset: 3px;
+  border-radius: 0.2rem;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--site-line);
+  box-shadow: 0 1px 10px rgba(16, 47, 59, 0.04);
+}
+
+.navbar-title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.hero-section {
+  margin: 0 0 3.5rem;
+  padding: clamp(3.75rem, 8vw, 7.5rem) max(1.25rem, calc((100vw - 1180px) / 2));
+  background:
+    radial-gradient(circle at 78% 20%, rgba(8, 127, 120, 0.14), transparent 28rem),
+    linear-gradient(145deg, #f9fcfb 0%, #edf6f4 100%);
+  border-bottom: 1px solid var(--site-line);
+  overflow: hidden;
+}
+
+.home-page #quarto-content {
+  padding-top: 0;
+}
+
+.home-page #title-block-header {
+  display: none;
+}
+
+.home-page main.content {
+  max-width: none;
+  padding: 0;
+}
+
+.home-content {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 1.25rem 3rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(260px, 0.85fr);
+  align-items: center;
+  gap: clamp(2rem, 7vw, 6rem);
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.hero-copy h1 {
+  margin: 0.15rem 0 1rem;
+  font-size: clamp(3rem, 7vw, 5.75rem);
+  line-height: 0.98;
+  letter-spacing: -0.055em;
+}
+
+.eyebrow {
+  margin-bottom: 0;
+  color: var(--site-accent-dark);
+  font-size: 0.78rem;
+  font-weight: 750;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.hero-lede {
+  max-width: 48rem;
+  color: var(--site-ink);
+  font-size: clamp(1.08rem, 2vw, 1.35rem);
+  font-weight: 600;
+  line-height: 1.55;
+}
+
+.hero-copy > p:not(.eyebrow, .hero-lede) {
+  max-width: 44rem;
+  color: var(--site-muted);
+  font-size: 1.08rem;
+}
+
+.hero-button {
+  margin: 0.65rem 0.4rem 0 0;
+}
+
+.btn-primary {
+  background-color: var(--site-accent);
+  border-color: var(--site-accent);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--site-accent-dark);
+  border-color: var(--site-accent-dark);
+}
+
+.hero-portrait {
+  max-width: 390px;
+  margin-left: auto;
+  border: 1px solid rgba(8, 127, 120, 0.2);
+  border-radius: 1.25rem;
+  background: #d8e8e4;
+  box-shadow: 0 24px 55px rgba(23, 52, 61, 0.16);
+  overflow: hidden;
+}
+
+.hero-portrait p,
+.hero-portrait figure {
+  margin: 0;
+}
+
+.profile-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.15rem;
+  margin: 1.5rem 0 3rem;
+}
+
+.research-card {
+  padding: 1.45rem;
+  border: 1px solid var(--site-line);
+  border-radius: 0.8rem;
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(23, 52, 61, 0.05);
+}
+
+.research-card h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.research-card p:last-child {
+  margin-bottom: 0;
+}
+
+.link-panel {
+  padding: 1.2rem 1.35rem;
+  border-left: 4px solid var(--site-accent);
+  background: var(--site-pale);
+}
+
+.publication-preview,
+.publication-entry {
+  margin: 0.9rem 0;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--site-line);
+  border-radius: 0.6rem;
+  background: #fff;
+}
+
+.publication-preview p,
+.publication-entry p {
+  margin: 0;
+}
+
+.status-label {
+  display: inline-block;
+  margin-bottom: 0.55rem;
+  padding: 0.16rem 0.55rem;
+  border-radius: 999px;
+  background: var(--site-pale);
+  color: var(--site-accent-dark);
+  font-size: 0.75rem;
+  font-weight: 750;
+  letter-spacing: 0.03em;
+}
+
+.cv-intro {
+  margin-bottom: 2rem;
+  padding: 1.2rem 1.35rem;
+  border-left: 4px solid var(--site-accent);
+  background: var(--site-pale);
+}
+
+.page-columns .content {
+  padding-bottom: 3rem;
+}
+
+@media (max-width: 767.98px) {
+  .hero-grid,
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-portrait {
+    max-width: 330px;
+    margin: 0 auto;
+  }
+
+  .hero-section {
+    padding-top: 3.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+}

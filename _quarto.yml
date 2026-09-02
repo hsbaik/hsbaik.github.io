@@ -1,0 +1,78 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - research.qmd
+    - publications.qmd
+    - projects.qmd
+    - cv.qmd
+    - contact.qmd
+  resources:
+    - robots.txt
+    - images/site/**
+    - images/profile/**
+
+lang: en
+
+website:
+  title: "Hyunseob Baik"
+  description: "Research portfolio of Hyunseob Baik, a postdoctoral researcher working in hyperspectral imaging, geological remote sensing, and three-dimensional sensing."
+  favicon: images/site/favicon.svg
+  site-url: https://hsbaik.github.io
+  repo-url: https://github.com/hsbaik/hsbaik.github.io
+  open-graph:
+    image: images/site/social-card.svg
+    image-alt: "Hyunseob Baik — geological remote sensing research portfolio"
+    locale: en_US
+  twitter-card:
+    image: images/site/social-card.svg
+    card-style: summary_large_image
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    background: light
+    foreground: dark
+    pinned: true
+    collapse: true
+    collapse-below: lg
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: CV
+        href: cv.qmd
+      - text: Contact
+        href: contact.qmd
+  page-footer:
+    border: true
+    left: "© Hyunseob Baik"
+    right:
+      - text: "Research"
+        href: research.qmd
+      - text: "Contact"
+        href: contact.qmd
+  back-to-top-navigation: true
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: true
+    toc-title: On this page
+    smooth-scroll: true
+    code-copy: true
+    code-overflow: wrap
+    highlight-style: github
+    link-external-newwindow: true
+    link-external-icon: true
+
+execute:
+  freeze: auto

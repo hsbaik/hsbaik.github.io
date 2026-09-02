@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Abstract geological layers</title>
+  <rect width="64" height="64" rx="14" fill="#17343d"/>
+  <path d="M8 41 21 27l12 9 12-18 11 13v19H8Z" fill="#7bb5ab"/>
+  <path d="M8 46 24 36l10 7 12-10 10 7v10H8Z" fill="#087f78"/>
+  <path d="M8 51h48" fill="none" stroke="#f3d06c" stroke-width="3"/>
+</svg>
+

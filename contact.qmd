@@ -1,0 +1,26 @@
+---
+title: "Contact"
+description: "Professional contact and researcher-profile links for Hyunseob Baik."
+toc: false
+---
+
+## Professional contact
+
+**Hyunseob Baik**  
+Post-Doc. Researcher  
+Mineral Exploration and Mining Research Center  
+Korea Institute of Geoscience and Mineral Resources (KIGAM)
+
+**Email**  
+[hsbaik@kigam.re.kr](mailto:hsbaik@kigam.re.kr)  
+[hsbaik1116@gmail.com](mailto:hsbaik1116@gmail.com)
+
+## Research profiles
+
+- [Google Scholar](https://scholar.google.co.kr/citations?user=Fl7F5yIAAAAJ)
+- [ORCID](https://orcid.org/0000-0002-9282-6947)
+- [GitHub](https://github.com/hsbaik)
+- [LinkedIn](https://www.linkedin.com/in/hyunseob-baik-70312023a/)
+- [ResearchGate](https://www.researchgate.net/profile/Hyunseob-Baik/research)
+
+Only contact details that the site owner explicitly identified as public are shown here. A street address and phone number are intentionally omitted.

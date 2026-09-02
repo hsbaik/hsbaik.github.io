@@ -1,0 +1,12 @@
+/.quarto/
+/_site/
+/userdata/
+/tmp/
+/_content/
+/github-pages-quarto-research-homepage-handoff.md
+/.DS_Store
+Thumbs.db
+*.log
+
+
+**/*.quarto_ipynb

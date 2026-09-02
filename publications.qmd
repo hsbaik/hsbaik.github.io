@@ -1,0 +1,74 @@
+---
+title: "Publications"
+description: "Verified journal articles and conference papers by Hyunseob Baik."
+---
+
+Published works are listed newest first. Manuscripts still in peer review are shown separately and are not presented as published research. **Hyunseob Baik** is highlighted in each entry.
+
+## Manuscript under revision
+
+::: {.publication-entry}
+<span class="status-label">Round 2 revision resubmitted</span>
+
+**Baik, H.**, Cho, E., & Kim, K.-E. (2026). Linear spectral unmixing with iterative error analysis for mineral mapping of Theophilus Crater using Moon Mineralogy Mapper (M³) hyperspectral data. Manuscript under revision at *Icarus*.
+:::
+
+## 2026
+
+::: {.publication-entry}
+**Baik, H.**, Park, J., Heo, J., Son, Y.-S., & Kim, K.-E. (2026). Alignment and 3D georeferencing of tunnel coaxial hyperspectral scanning system data for mine drift exploration. *Geo-spatial Information Science*, 1–22. [DOI](https://doi.org/10.1080/10095020.2026.2712863)
+:::
+
+## 2023
+
+::: {.publication-entry}
+**Baik, H.**, Son, Y.-S., & Kim, K.-E. (2023). A tunnel coaxial 3D hyperspectral scanning system for underground mine investigation. *Scientific Reports, 13*, 10417. [DOI](https://doi.org/10.1038/s41598-023-37565-4)
+:::
+
+::: {.publication-entry}
+Son, Y.-S., Lee, G., Kim, K.-E., Oh, I.-H., Heo, C.-H., & **Baik, H.** (2023). The potential of hyperspectral data for detection lithium-bearing pegmatite: A case study at Uljin, South Korea. *IGARSS 2023*, 3690–3692. [DOI](https://doi.org/10.1109/IGARSS52108.2023.10283433)
+:::
+
+## 2022
+
+::: {.publication-entry}
+Son, Y.-S., Noh, S.-G., Bang, E.-S., Kim, K.-E., Cho, S.-J., & **Baik, H.** (2022). Ground-based visible–near infrared hyperspectral imaging for monitoring cliff weathering of a volcanic island in Dokdo, South Korea. *Engineering Geology, 309*, 106854. [DOI](https://doi.org/10.1016/j.enggeo.2022.106854)
+:::
+
+::: {.publication-entry}
+Lee, S., Kim, B., **Baik, H.**, & Cho, S.-J. (2022). A novel design and implementation of an autopilot terrain-following airship. *IEEE Access, 10*, 38428–38436. [DOI](https://doi.org/10.1109/ACCESS.2022.3164737)
+:::
+
+## 2021
+
+::: {.publication-entry}
+Son, Y.-S., You, B.-W., Bang, E.-S., Cho, S.-J., Kim, K.-E., **Baik, H.**, & Nam, H.-T. (2021). Mapping alteration mineralogy in eastern Tsogttsetsii, Mongolia, based on the WorldView-3 and field shortwave-infrared spectroscopy analyses. *Remote Sensing, 13*(5), 914. [DOI](https://doi.org/10.3390/rs13050914)
+:::
+
+## 2019
+
+::: {.publication-entry}
+**Baik, H.**, Son, Y.-S., & Kim, K.-E. (2019). Detection of liquefaction phenomena from the 2017 Pohang (Korea) earthquake using remote sensing data. *Remote Sensing, 11*(18), 2184. [DOI](https://doi.org/10.3390/rs11182184)
+:::
+
+## 2017
+
+::: {.publication-entry}
+**Baik, H.**, & Kim, J. (2017). The development of 3D sub-surface mapping scheme and its application to Martian lobate debris aprons. *The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, XLII-3/W1*, 1–5. [DOI](https://doi.org/10.5194/isprs-archives-XLII-3-W1-1-2017)
+:::
+
+## 2016
+
+::: {.publication-entry}
+**Baik, H.**, & Kim, K.-E. (2016). The investigation of mineral distribution at Spirit rover landing site: Gusev Crater by CRISM hyperspectral data and target detection algorithm. *Korean Journal of Remote Sensing, 32*(5), 403–412. [DOI](https://doi.org/10.7780/kjrs.2016.32.5.1)
+:::
+
+::: {.publication-entry}
+Kim, K.-E., Lee, S.-S., & **Baik, H.** (2016). Iterative matched filtering for detection of non-rare target materials in hyperspectral imagery. *Image and Signal Processing for Remote Sensing XXII, Proceedings of SPIE, 10004*, 100040E. [DOI](https://doi.org/10.1117/12.2240638)
+:::
+
+## Profiles
+
+[Google Scholar](https://scholar.google.co.kr/citations?user=Fl7F5yIAAAAJ) · [ORCID](https://orcid.org/0000-0002-9282-6947) · [ResearchGate](https://www.researchgate.net/profile/Hyunseob-Baik/research)
+
+Citation counts are intentionally omitted because they change over time. The structured source for this page is maintained in `data/publications.bib`.

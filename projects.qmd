@@ -1,0 +1,33 @@
+---
+title: "Projects"
+description: "Research systems and projects in geological remote sensing and exploration."
+---
+
+This page presents systems and research projects that are supported by public publications or intellectual-property records. Ongoing work will be added after its disclosure status and contribution details are confirmed.
+
+## Tunnel Coaxial 3D Hyperspectral Scanning System
+
+Underground hyperspectral imaging is difficult because tunnel geometry, limited illumination, and sensor motion complicate both image acquisition and spatial interpretation. This project develops a coaxial scanning system that combines hyperspectral measurements with three-dimensional sensing for mine-drift investigation.
+
+The public research record covers the system design, underground experimental use, and subsequent alignment and three-dimensional georeferencing workflow. Together, these outputs establish a path from sensor acquisition to spatially registered spectral observations of tunnel surfaces.
+
+**Related outputs**
+
+- Baik et al. (2026), [alignment and 3D georeferencing](https://doi.org/10.1080/10095020.2026.2712863)
+- Baik, Son, and Kim (2023), [system design and underground investigation](https://doi.org/10.1038/s41598-023-37565-4)
+- Republic of Korea patent 10-2637641, *Hyperspectral Scanning System for Underground Mine Shaft and Tunnel*, registered February 13, 2024 ([KIGAM record](https://www.kigam.re.kr/intell.es?act=view&mid=a10408020000&rchrstno=P22-032-KR))
+- Australian patent application 2023344510, *Hyperspectral Scanning System for Underground Mine Galleries and Tunnels*, accepted June 17, 2026 ([IP Australia record](https://ipsearch.ipaustralia.gov.au/patents/2023344510))
+
+The TCHSS technology was transferred to Geogeny Consultant in December 2024.
+
+## Robotic Platforms for Near-field Geological Remote Sensing
+
+**Status: ongoing research**
+
+This research uses rover and robotic platforms to collect near-field remote-sensing observations in underground mines and at surface outcrops. It focuses on integrating hyperspectral imaging, LiDAR, positioning, and mobile sensing for three-dimensional geological observation and mapping.
+
+Ongoing work also applies these concepts to rover-mounted payloads for lunar and Martian exploration. The planetary extension focuses on near-field hyperspectral and three-dimensional measurements that can support in-situ geological observation and mineral mapping at the rover scale.
+
+[Related research theme: Planetary Geology and Remote Sensing](research.qmd#planetary-geology-and-remote-sensing)
+
+Public code and data repositories are not currently available. Detailed results, collaborators, study locations, and media will be added after their disclosure status and rights are confirmed.
