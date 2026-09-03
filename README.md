@@ -4,15 +4,15 @@ Phase 3 deployment-ready researcher homepage built with [Quarto](https://quarto.
 
 ## Current scope
 
-- English-language site with Home, Research, Publications, Projects, CV, and Contact pages
+- English-language site with Home, Research, Publications, Proceedings & Presentations, Projects, CV, and Contact pages
 - Responsive navigation and layout
 - Local full-text search, social-card metadata, accessible focus states, and a lightweight custom theme
-- Verified professional profile, education, appointments, publications, selected awards, patent, and public contact links
+- Verified professional profile, education, appointments, publications, proceedings, selected awards, patents, technology transfer, repository availability, and public contact links
 - Structured bibliography in `data/publications.bib` and an optimized profile image derived from the supplied original
 - Repository target: [hsbaik/hsbaik.github.io](https://github.com/hsbaik/hsbaik.github.io)
 - Least-privilege GitHub Actions workflow for render checks and Pages deployment
 
-English is the confirmed site language. Deployment metadata targets the `hsbaik.github.io` user site, but no repository or remote has been created.
+English is the confirmed site language. The published baseline is hosted at `https://hsbaik.github.io/`; subsequent design and content changes remain local until they are explicitly reviewed and pushed.
 
 ## Local requirements
 

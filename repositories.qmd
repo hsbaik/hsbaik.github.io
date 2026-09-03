@@ -1,0 +1,15 @@
+---
+title: "Data & Software Repositories"
+description: "Public research data and software repositories associated with Hyunseob Baik's work."
+toc: false
+---
+
+This page will provide links to research code, data, documentation, releases, and persistent identifiers when they are approved for public access.
+
+::: {.empty-state}
+### No public repositories are currently available
+
+No public code or data repository has been provided for inclusion at this time. Repository records will be added only after disclosure status, ownership, licensing, documentation, and public URLs have been confirmed.
+:::
+
+Future entries may include software source code, reproducible workflows, processed or reference datasets, release versions, licenses, and links between repositories and the corresponding publications or projects.

@@ -1,10 +1,24 @@
 ---
 title: "Research"
 description: "Research themes spanning underground sensing, mineral mapping, planetary geology, and autonomous exploration."
+page-layout: full
+toc: false
+body-classes: research-page
+lightbox:
+  match: auto
+  effect: zoom
+  desc-position: bottom
+  loop: true
 ---
 
 My research connects spectral measurement, three-dimensional mapping, geological interpretation, and field-ready sensing systems. I work across underground, terrestrial, satellite, and planetary observations, with an emphasis on extracting spatially meaningful geological information from hyperspectral data.
 
+::: {.research-lightbox-loader aria-hidden="true"}
+![](images/research_pics/web/square/underground-hsi-lidar.webp){.lightbox}
+:::
+
+:::: {.research-theme .research-theme--image-right}
+::: {.research-theme__content}
 ## Underground Hyperspectral–LiDAR Remote Sensing
 
 This work develops ways to acquire, align, and georeference hyperspectral observations inside mines and tunnels. The tunnel coaxial 3D hyperspectral scanning system combines line-scanning hyperspectral imagery with three-dimensional sensing to observe rock surfaces in spatial context.
@@ -12,7 +26,20 @@ This work develops ways to acquire, align, and georeference hyperspectral observ
 **Methods:** sensor alignment, radiometric and geometric preprocessing, three-dimensional point-cloud construction, spectral mapping, and underground system integration.
 
 [System overview](projects.qmd#tunnel-coaxial-3d-hyperspectral-scanning-system) · [2026 alignment paper](https://doi.org/10.1080/10095020.2026.2712863) · [2023 system paper](https://doi.org/10.1038/s41598-023-37565-4)
+:::
 
+::: {.research-theme__media}
+<figure class="research-theme__figure">
+  <a class="research-theme__image-link lightbox" href="images/research_pics/Underground_HSI_LiDAR/TCHSS_context.png" data-gallery="research-gallery" title="TCHSS exploration concept, underground data acquisition, and sensor assembly." aria-label="Open the full-resolution TCHSS context figure">
+    <img class="research-theme__image" src="images/research_pics/web/square/underground-hsi-lidar.webp" alt="Illustrated overview of the TCHSS exploration concept, mine-drift data acquisition, and sensor assembly." width="1200" height="1200" loading="lazy" decoding="async">
+  </a>
+  <figcaption>TCHSS exploration concept, underground data acquisition, and sensor assembly.</figcaption>
+</figure>
+:::
+::::
+
+:::: {.research-theme .research-theme--image-left}
+::: {.research-theme__content}
 ## Hyperspectral Mineral Mapping
 
 This theme covers VNIR–SWIR data processing across laboratory, ground-based, airborne, and satellite scales. Applications include alteration-mineral mapping, geological target detection, and monitoring exposed rock surfaces.
@@ -20,7 +47,20 @@ This theme covers VNIR–SWIR data processing across laboratory, ground-based, a
 **Methods in scope:** endmember extraction, target detection, spectral unmixing, and comparison with reference spectral libraries.
 
 An ongoing manuscript applies linear spectral unmixing with iterative error analysis to endmember extraction and mineral mapping of the lunar Theophilus Crater using Moon Mineralogy Mapper (M³) hyperspectral data.
+:::
 
+::: {.research-theme__media}
+<figure class="research-theme__figure">
+  <a class="research-theme__image-link lightbox" href="images/research_pics/HSI_Min_Mapping/HSI_Min_Map_Context.png" data-gallery="research-gallery" title="Representative geological imagery and hyperspectral mineral-mapping context." aria-label="Open the full-resolution hyperspectral mineral-mapping figure">
+    <img class="research-theme__image" src="images/research_pics/web/square/hyperspectral-mineral-mapping.webp" alt="Two-panel comparison of geological imagery and color-coded hyperspectral mineral-mapping results." width="1200" height="1200" loading="lazy" decoding="async">
+  </a>
+  <figcaption>Representative geological imagery and hyperspectral mineral-mapping context.</figcaption>
+</figure>
+:::
+::::
+
+:::: {.research-theme .research-theme--image-right}
+::: {.research-theme__content}
 ## Planetary Geology and Remote Sensing
 
 This theme applies orbital spectroscopy, image analysis, and three-dimensional subsurface interpretation to the Moon and Mars. Published work includes mineral mapping at the Spirit rover landing site and three-dimensional mapping of Martian lobate debris aprons. Current work on Theophilus Crater connects endmember extraction, spectral unmixing, geological mapping, and planetary remote sensing.
@@ -30,7 +70,20 @@ In parallel, ongoing rover-payload research adapts near-field hyperspectral and 
 [Rover and payload research](projects.qmd#robotic-platforms-for-near-field-geological-remote-sensing)
 
 **Questions in scope:** what can orbital observations resolve, what requires surface measurements, and how can the two scales be connected?
+:::
 
+::: {.research-theme__media}
+<figure class="research-theme__figure">
+  <a class="research-theme__image-link lightbox" href="images/research_pics/PlanetaryRS/Context.png" data-gallery="research-gallery" title="Concept illustration linking orbital context with rover-scale spectral and LiDAR observations." aria-label="Open the full-resolution planetary remote-sensing illustration">
+    <img class="research-theme__image" src="images/research_pics/web/square/planetary-remote-sensing.webp" alt="Concept illustration of orbital hyperspectral imaging and rover spectral-LiDAR observations on Mars." width="1200" height="1200" loading="lazy" decoding="async">
+  </a>
+  <figcaption>Concept illustration linking orbital context with rover-scale spectral and LiDAR observations.</figcaption>
+</figure>
+:::
+::::
+
+:::: {.research-theme .research-theme--image-left}
+::: {.research-theme__content}
 ## Robotic Near-field Geological Remote Sensing
 
 My current research uses rovers and other robotic platforms for near-field remote sensing of underground mines and surface outcrops. The aim is to integrate hyperspectral sensors, LiDAR, positioning systems, and mobile platforms for geological observation in operationally constrained environments.
@@ -38,3 +91,14 @@ My current research uses rovers and other robotic platforms for near-field remot
 The same sensing and platform concepts are also being investigated as rover-mounted payloads for lunar and Martian exploration, linking terrestrial system development with planetary geology and in-situ remote sensing.
 
 **Systems in scope:** rover-based sensing, ground and UAV observations, autopilot terrain following, embedded computing, three-dimensional mapping, and decision support.
+:::
+
+::: {.research-theme__media}
+<figure class="research-theme__figure">
+  <a class="research-theme__image-link lightbox" href="images/research_pics/RoboticGRS/Gemini_Generated_Image_1p8cqi1p8cqi1p8c.png" data-gallery="research-gallery" title="Concept illustration of a rover-mounted near-field geological sensing platform." aria-label="Open the full-resolution robotic sensing illustration">
+    <img class="research-theme__image" src="images/research_pics/web/square/robotic-geological-sensing.webp" alt="Concept illustration of a tracked geological exploration rover examining a rock outcrop with multiple sensors." width="1200" height="1200" loading="lazy" decoding="async">
+  </a>
+  <figcaption>Concept illustration of a rover-mounted near-field geological sensing platform.</figcaption>
+</figure>
+:::
+::::

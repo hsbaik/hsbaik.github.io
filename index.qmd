@@ -1,6 +1,6 @@
 ---
 title: "Hyunseob Baik"
-description: "Geological remote sensing, hyperspectral imaging, LiDAR–HSI fusion, and planetary geology."
+description: "Geological remote sensing, hyperspectral imaging, LiDAR–HSI fusion, robotics remote sensing, and planetary geology."
 page-layout: full
 body-classes: home-page
 toc: false
@@ -13,7 +13,7 @@ toc: false
 
 # Hyunseob Baik
 
-<p class="hero-lede">Geological Remote Sensing · Hyperspectral Imaging · LiDAR–HSI Fusion · Planetary Geology</p>
+<p class="hero-lede">Geological Remote Sensing · Hyperspectral Imaging · LiDAR–HSI Fusion · Robotics Remote Sensing · Planetary Geology</p>
 
 I am a postdoctoral researcher at the Mineral Exploration and Mining Research Center, Korea Institute of Geoscience and Mineral Resources (KIGAM). My work combines hyperspectral imaging, LiDAR, and geospatial analysis to map geological materials in underground, terrestrial, satellite, and planetary settings.
 
@@ -32,7 +32,7 @@ I am a postdoctoral researcher at the Mineral Exploration and Mining Research Ce
 
 ::: {.research-grid}
 ::: {.research-card}
-### Underground sensing
+### Underground Space 3D Remote Sensing
 
 Hyperspectral and LiDAR observations for spatially complex underground geological environments.
 

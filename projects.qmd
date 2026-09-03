@@ -18,7 +18,9 @@ The public research record covers the system design, underground experimental us
 - Republic of Korea patent 10-2637641, *Hyperspectral Scanning System for Underground Mine Shaft and Tunnel*, registered February 13, 2024 ([KIGAM record](https://www.kigam.re.kr/intell.es?act=view&mid=a10408020000&rchrstno=P22-032-KR))
 - Australian patent application 2023344510, *Hyperspectral Scanning System for Underground Mine Galleries and Tunnels*, accepted June 17, 2026 ([IP Australia record](https://ipsearch.ipaustralia.gov.au/patents/2023344510))
 
-The TCHSS technology was transferred to Geogeny Consultant in December 2024.
+The TCHSS technology was transferred to GeoGeny Consultants Group Inc. in December 2024.
+
+[View the consolidated patent and technology-transfer record](patents.qmd)
 
 ## Robotic Platforms for Near-field Geological Remote Sensing
 
@@ -30,4 +32,4 @@ Ongoing work also applies these concepts to rover-mounted payloads for lunar and
 
 [Related research theme: Planetary Geology and Remote Sensing](research.qmd#planetary-geology-and-remote-sensing)
 
-Public code and data repositories are not currently available. Detailed results, collaborators, study locations, and media will be added after their disclosure status and rights are confirmed.
+Public code and data repositories are not currently available. See [Data & Software Repositories](repositories.qmd) for the current availability statement. Detailed results, collaborators, study locations, and media will be added after their disclosure status and rights are confirmed.

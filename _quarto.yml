@@ -5,6 +5,9 @@ project:
     - index.qmd
     - research.qmd
     - publications.qmd
+    - presentations.qmd
+    - patents.qmd
+    - repositories.qmd
     - projects.qmd
     - cv.qmd
     - contact.qmd
@@ -12,6 +15,7 @@ project:
     - robots.txt
     - images/site/**
     - images/profile/**
+    - images/research_pics/**
 
 lang: en
 
@@ -32,8 +36,8 @@ website:
     location: navbar
     type: overlay
   navbar:
-    background: light
-    foreground: dark
+    background: dark
+    foreground: light
     pinned: true
     collapse: true
     collapse-below: lg
@@ -42,8 +46,16 @@ website:
         href: index.qmd
       - text: Research
         href: research.qmd
-      - text: Publications
-        href: publications.qmd
+      - text: Research Outputs
+        menu:
+          - text: Publications
+            href: publications.qmd
+          - text: Proceedings & Presentations
+            href: presentations.qmd
+          - text: Patents & Technology Transfer
+            href: patents.qmd
+          - text: Data & Software Repositories
+            href: repositories.qmd
       - text: Projects
         href: projects.qmd
       - text: CV
@@ -63,14 +75,14 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - darkly
       - styles.scss
     toc: true
     toc-title: On this page
     smooth-scroll: true
     code-copy: true
     code-overflow: wrap
-    highlight-style: github
+    highlight-style: dracula
     link-external-newwindow: true
     link-external-icon: true
 

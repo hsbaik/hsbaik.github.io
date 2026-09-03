@@ -1,0 +1,53 @@
+---
+title: "Patents & Technology Transfer"
+description: "Verified patents and publicly disclosable technology transfer involving Hyunseob Baik."
+---
+
+This page records intellectual-property status using official patent records and separates a registered patent from an accepted application. Details not supported by the available records or explicitly approved for public release are omitted.
+
+## Patents
+
+::: {.output-entry}
+<span class="status-label">Registered patent</span>
+
+**Hyperspectral Scanning System for Underground Mine Shaft and Tunnel**
+
+- **Jurisdiction:** Republic of Korea
+- **Patent number:** 10-2637641
+- **Application number:** 10-2022-0120273
+- **Registration date:** February 13, 2024
+- **Patent holder:** Korea Institute of Geoscience and Mineral Resources (KIGAM)
+- **Inventors:** Hyunseob Baik, Kwang-Eun Kim, and Young-Sun Son
+- [Official KIGAM record](https://www.kigam.re.kr/intell.es?act=view&mid=a10408020000&rchrstno=P22-032-KR)
+
+<div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Underground Remote Sensing</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">3D Remote Sensing</span><span class="pub-tag">System Development</span></div>
+:::
+
+::: {.output-entry}
+<span class="status-label">Accepted application</span>
+
+**Hyperspectral Scanning System for Underground Mine Galleries and Tunnels**
+
+- **Jurisdiction:** Australia
+- **Australian application number:** 2023344510
+- **Filing date:** August 30, 2023
+- **Acceptance date:** June 17, 2026
+- **Applicant:** Korea Institute of Geoscience and Mineral Resources
+- **Inventors:** Hyun-Seob Baik, Young-Sun Son, and Gwang-Eun Kim
+- **PCT application / WIPO publication:** PCT/KR2023/012847 / WO2024/063370
+- [Official IP Australia record](https://ipsearch.ipaustralia.gov.au/patents/2023344510)
+
+<div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Underground Remote Sensing</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">3D Remote Sensing</span><span class="pub-tag">International Patent</span></div>
+:::
+
+The Australian record reviewed for this site identifies the application as **Accepted**; it is therefore not presented here as a granted Australian patent.
+
+## Technology transfer
+
+::: {.output-entry}
+<span class="status-label">Transferred technology</span>
+
+The Tunnel Coaxial 3D Hyperspectral Scanning System (TCHSS) technology was transferred to **GeoGeny Consultants Group Inc.** in December 2024.
+
+[Related project: Tunnel Coaxial 3D Hyperspectral Scanning System](projects.qmd#tunnel-coaxial-3d-hyperspectral-scanning-system)
+:::
