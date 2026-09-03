@@ -48,7 +48,7 @@ def validate(data: dict[str, Any]) -> None:
         raise ValueError(f"Missing required top-level keys: {', '.join(missing)}")
 
     person = data["person"]
-    for key in ("name", "title", "department", "institution", "emails", "profiles"):
+    for key in ("name", "title", "department", "institution", "digital_cv_url", "emails", "profiles"):
         if not person.get(key):
             raise ValueError(f"Missing person.{key}")
 
@@ -426,6 +426,12 @@ def generate_typst(data: dict[str, Any]) -> None:
         f'#link({ts(profile_lookup[label])})[#text(fill: accent, {ts(label)})]'
         for label in ("Google Scholar", "ORCID", "GitHub", "LinkedIn", "ResearchGate") if label in profile_lookup
     )
+    digital_cv_url = person["digital_cv_url"]
+    digital_cv_display = digital_cv_url.removeprefix("https://").removeprefix("http://").rstrip("/")
+    digital_cv_link = (
+        f'#link({ts(digital_cv_url)})'
+        f'[#text(fill: accent, {ts("Digital CV · " + digital_cv_display)})]'
+    )
 
     appointments = "\n".join(
         typst_dated(item["period"], item["role"], item["institution"], item["detail"])
@@ -519,7 +525,8 @@ def generate_typst(data: dict[str, Any]) -> None:
 #text(weight: "bold", {ts(person["title"])}) #text({ts(" · " + person["department"])})\\
 #text({ts(person["institution"])})\\
 #text(size: 8.5pt)[{email_links}]\\
-#text(size: 8.5pt)[{profile_links}]
+#text(size: 8.5pt)[{profile_links}]\\
+#text(size: 8.5pt)[{digital_cv_link}]
 
 #section("Appointments")
 {appointments}
