@@ -3,6 +3,8 @@ title: "Proceedings & Presentations"
 description: "Conference proceedings and abstracts, invited seminars, and professional contributions by Hyunseob Baik."
 ---
 
+<!-- Generated from data/cv.json by scripts/build_cv.py. Do not edit directly. -->
+
 Research outputs are grouped by contribution type and listed newest first within each section. **Hyunseob Baik** is highlighted in each entry. Published identifiers and links are included only when they have been verified.
 
 ## Invited seminars
@@ -10,7 +12,7 @@ Research outputs are grouped by contribution type and listed newest first within
 ::: {.publication-entry}
 <span class="status-label">Invited seminar</span>
 
-**Baik, H.** (2025). *Spectral remote sensing for resources development*. Graduate School seminar, Department of Energy and Mineral Resources, Sejong University, Seoul, December 18, 2025.
+**Baik, H.** (2025). Spectral remote sensing for resources development. *Graduate School seminar, Department of Energy and Mineral Resources, Sejong University*, Seoul, December 18, 2025.
 
 <div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Geological Remote Sensing</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">Mineral Exploration</span><span class="pub-tag">Smart Mining</span></div>
 :::
@@ -18,21 +20,19 @@ Research outputs are grouped by contribution type and listed newest first within
 ::: {.publication-entry}
 <span class="status-label">Invited seminar</span>
 
-**Baik, H.** (2025). *Ground-based spectral remote sensing for geological and resource analysis*. BK SEES Seminar, Pusan National University, Busan, March 25, 2025.
+**Baik, H.** (2025). Ground-based spectral remote sensing for geological and resource analysis. *BK SEES Seminar, Pusan National University*, Busan, March 25, 2025.
 
 <div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Geological Remote Sensing</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">Mineral Exploration</span><span class="pub-tag">Near-field Sensing</span></div>
 :::
-
 ## Professional contribution
 
 ::: {.publication-entry}
 <span class="status-label">Professional article</span>
 
-**Baik, H.** (2025). Introduction to the 3D hyperspectral scanning system for mine drifts and tunnels. *U-Space*, 81, 4-10. Webzine of the Korean Society for Rock Mechanics, December 2025.
+**Baik, H.** (2025). Introduction to the 3D hyperspectral scanning system for mine drifts and tunnels. *U-Space*, 81, 4–10. Webzine of the Korean Society for Rock Mechanics, December 2025.
 
 <div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Underground Remote Sensing</span><span class="pub-tag">3D Remote Sensing</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">System Development</span></div>
 :::
-
 ## Conference proceedings and abstracts
 
 ::: {.publication-entry}
@@ -54,7 +54,7 @@ Research outputs are grouped by contribution type and listed newest first within
 ::: {.publication-entry}
 <span class="status-label">Published proceeding</span>
 
-Son, Y.-S., Lee, G., Kim, K.-E., Oh, I.-H., Heo, C.-H., & **Baik, H.** (2023). The potential of hyperspectral data for detection lithium-bearing pegmatite: A case study at Uljin, South Korea. *IGARSS 2023*, 3690-3692. [DOI](https://doi.org/10.1109/IGARSS52108.2023.10283433)
+Son, Y.-S., Lee, G., Kim, K.-E., Oh, I.-H., Heo, C.-H., & **Baik, H.** (2023). The potential of hyperspectral data for detection lithium-bearing pegmatite: A case study at Uljin, South Korea. *IGARSS 2023*, 3690–3692. [DOI](https://doi.org/10.1109/IGARSS52108.2023.10283433)
 
 <div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Mineral Exploration</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">Geological Mapping</span></div>
 :::
@@ -70,7 +70,7 @@ Son, Y.-S., Lee, G., Kim, K.-E., Oh, I.-H., Heo, C.-H., & **Baik, H.** (2023). T
 ::: {.publication-entry}
 <span class="status-label">Published proceeding</span>
 
-**Baik, H.**, & Kim, J. (2017). The development of 3D sub-surface mapping scheme and its application to Martian lobate debris aprons. *The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, XLII-3/W1*, 1-5. [DOI](https://doi.org/10.5194/isprs-archives-XLII-3-W1-1-2017)
+**Baik, H.**, & Kim, J. (2017). The development of 3D sub-surface mapping scheme and its application to Martian lobate debris aprons. *The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences*, XLII-3/W1, 1–5. [DOI](https://doi.org/10.5194/isprs-archives-XLII-3-W1-1-2017)
 
 <div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Planetary Remote Sensing</span><span class="pub-tag">3D Geological Mapping</span><span class="pub-tag">Mars</span></div>
 :::
@@ -94,7 +94,7 @@ Kim, J., & **Baik, H.** (2016). The investigation of improved SHARAD profiles ov
 ::: {.publication-entry}
 <span class="status-label">Conference abstract</span>
 
-van Gasselt, S., Kim, J., & **Baik, H.** (2016). Euripus Mons - landform evolution and climate constraints in Promethei Terra. *American Geophysical Union Fall Meeting 2016*, December 2016.
+van Gasselt, S., Kim, J., & **Baik, H.** (2016). Euripus Mons – landform evolution and climate constraints in Promethei Terra. *American Geophysical Union Fall Meeting 2016*, December 2016.
 
 <div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Planetary Geology</span><span class="pub-tag">Landform Evolution</span><span class="pub-tag">Paleoclimate</span><span class="pub-tag">Mars</span></div>
 :::
@@ -110,7 +110,7 @@ van Gasselt, S., Kim, J., & **Baik, H.** (2016). Euripus Mons - landform evoluti
 ::: {.publication-entry}
 <span class="status-label">Published proceeding</span>
 
-Kim, K.-E., Lee, S.-S., & **Baik, H.** (2016). Iterative matched filtering for detection of non-rare target materials in hyperspectral imagery. *Image and Signal Processing for Remote Sensing XXII, Proceedings of SPIE, 10004*, 100040E. [DOI](https://doi.org/10.1117/12.2240638)
+Kim, K.-E., Lee, S.-S., & **Baik, H.** (2016). Iterative matched filtering for detection of non-rare target materials in hyperspectral imagery. *Image and Signal Processing for Remote Sensing XXII, Proceedings of SPIE*, 10004, 100040E. [DOI](https://doi.org/10.1117/12.2240638)
 
 <div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">Target Detection</span><span class="pub-tag">Spectral Analysis</span></div>
 :::
@@ -118,7 +118,7 @@ Kim, K.-E., Lee, S.-S., & **Baik, H.** (2016). Iterative matched filtering for d
 ::: {.publication-entry}
 <span class="status-label">Conference abstract</span>
 
-Kim, J., **Baik, H.**, & van Gasselt, S. (2016). Constraints on landscape formation of Euripus Mons, Mars, from topographic and radar data analysis. *Sixth International Conference on Mars Polar Science and Exploration*, LPI Contribution No. 1926, abstract 6068, September 5-9, 2016. [Abstract](https://www.hou.usra.edu/meetings/marspolar2016/pdf/6068.pdf)
+Kim, J., **Baik, H.**, & van Gasselt, S. (2016). Constraints on landscape formation of Euripus Mons, Mars, from topographic and radar data analysis. *Sixth International Conference on Mars Polar Science and Exploration*, LPI Contribution No. 1926, abstract 6068, September 5–9, 2016. [Abstract](https://www.hou.usra.edu/meetings/marspolar2016/pdf/6068.pdf)
 
 <div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Planetary Geology</span><span class="pub-tag">3D Topography</span><span class="pub-tag">Radar Sounding</span><span class="pub-tag">Mars</span></div>
 :::
@@ -126,7 +126,7 @@ Kim, J., **Baik, H.**, & van Gasselt, S. (2016). Constraints on landscape format
 ::: {.publication-entry}
 <span class="status-label">Conference abstract</span>
 
-van Gasselt, S., Kim, J., & **Baik, H.** (2016). Euripus Mons - landform evolution and climate constraints in Promethei Terra. *EGU General Assembly 2016*, EGU2016-9627, April 17-22, 2016. [Abstract](https://meetingorganizer.copernicus.org/EGU2016/EGU2016-9627.pdf)
+van Gasselt, S., Kim, J., & **Baik, H.** (2016). Euripus Mons – landform evolution and climate constraints in Promethei Terra. *EGU General Assembly 2016*, EGU2016-9627, April 17–22, 2016. [Abstract](https://meetingorganizer.copernicus.org/EGU2016/EGU2016-9627.pdf)
 
 <div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Planetary Geology</span><span class="pub-tag">Landform Evolution</span><span class="pub-tag">Paleoclimate</span><span class="pub-tag">Mars</span></div>
 :::

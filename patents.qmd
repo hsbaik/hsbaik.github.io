@@ -3,6 +3,8 @@ title: "Patents & Technology Transfer"
 description: "Verified patents and publicly disclosable technology transfer involving Hyunseob Baik."
 ---
 
+<!-- Generated from data/cv.json by scripts/build_cv.py. Do not edit directly. -->
+
 This page records intellectual-property status using official patent records and separates a registered patent from an accepted application. Details not supported by the available records or explicitly approved for public release are omitted.
 
 ## Patents
@@ -21,8 +23,8 @@ This page records intellectual-property status using official patent records and
 - [Official KIGAM record](https://www.kigam.re.kr/intell.es?act=view&mid=a10408020000&rchrstno=P22-032-KR)
 
 <div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Underground Remote Sensing</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">3D Remote Sensing</span><span class="pub-tag">System Development</span></div>
-:::
 
+:::
 ::: {.output-entry}
 <span class="status-label">Accepted application</span>
 
@@ -38,16 +40,17 @@ This page records intellectual-property status using official patent records and
 - [Official IP Australia record](https://ipsearch.ipaustralia.gov.au/patents/2023344510)
 
 <div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Underground Remote Sensing</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">3D Remote Sensing</span><span class="pub-tag">International Patent</span></div>
+The official record identifies this application as Accepted; it is not presented as a granted Australian patent.
 :::
-
-The Australian record reviewed for this site identifies the application as **Accepted**; it is therefore not presented here as a granted Australian patent.
 
 ## Technology transfer
 
 ::: {.output-entry}
 <span class="status-label">Transferred technology</span>
 
-The Tunnel Coaxial 3D Hyperspectral Scanning System (TCHSS) technology was transferred to **GeoGeny Consultants Group Inc.** in December 2024.
+**Tunnel Coaxial 3D Hyperspectral Scanning System (TCHSS)**
 
-[Related project: Tunnel Coaxial 3D Hyperspectral Scanning System](projects.qmd#tunnel-coaxial-3d-hyperspectral-scanning-system)
+The TCHSS technology was transferred to GeoGeny Consultants Group Inc. in December 2024.
+
+[Related project](projects.qmd#tunnel-coaxial-3d-hyperspectral-scanning-system)
 :::

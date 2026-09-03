@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "updated": "2026-09-03",
+  "person": {
+    "name": "Hyunseob Baik",
+    "short_name": "H. Baik",
+    "title": "Post-Doc. Researcher",
+    "department": "Mineral Exploration and Mining Research Center",
+    "institution": "Korea Institute of Geoscience and Mineral Resources (KIGAM)",
+    "emails": [
+      "hsbaik@kigam.re.kr",
+      "hsbaik1116@gmail.com"
+    ],
+    "profiles": [
+      {"label": "Google Scholar", "url": "https://scholar.google.co.kr/citations?user=Fl7F5yIAAAAJ"},
+      {"label": "ORCID", "url": "https://orcid.org/0000-0002-9282-6947"},
+      {"label": "GitHub", "url": "https://github.com/hsbaik"},
+      {"label": "LinkedIn", "url": "https://www.linkedin.com/in/hyunseob-baik-70312023a/"},
+      {"label": "ResearchGate", "url": "https://www.researchgate.net/profile/Hyunseob-Baik/research"}
+    ]
+  },
+  "appointments": [
+    {
+      "period": "May 2025–present",
+      "role": "Postdoctoral Researcher",
+      "institution": "KIGAM",
+      "detail": "Mineral Exploration and Mining Research Center, Resources Exploration and Development Research Division"
+    },
+    {
+      "period": "March 2016–February 2025",
+      "role": "Student Researcher",
+      "institution": "KIGAM",
+      "detail": "Mineral Exploration and Mining Research Center, Mineral Resources Research Division"
+    },
+    {
+      "period": "July 2015–February 2016",
+      "role": "Undergraduate Researcher (Intern)",
+      "institution": "University of Seoul",
+      "detail": "Planetary Remote Sensing Laboratory, Department of Geoinformatics"
+    }
+  ],
+  "education": [
+    {
+      "year": "2025",
+      "degree": "Ph.D. in Resources Engineering",
+      "institution": "University of Science and Technology (UST)",
+      "detail": "KIGAM School · Advisor: Kwang-Eun Kim",
+      "work_label": "Dissertation",
+      "work_title": "Development of Tunnel Coaxial 3D Hyperspectral Scanning System and Its Experimental Test in Underground Mines"
+    },
+    {
+      "year": "2018",
+      "degree": "M.S. in Geophysical Exploration",
+      "institution": "University of Science and Technology (UST)",
+      "detail": "KIGAM School · Advisor: Kwang-Eun Kim",
+      "work_label": "Thesis",
+      "work_title": "Application of Iterative Error Analysis on Moon Mineralogy Mapper (M3) Lunar Hyperspectral Data for Mineral Distribution Mapping"
+    },
+    {
+      "year": "2016",
+      "degree": "B.S. in Earth System Sciences",
+      "institution": "Yonsei University",
+      "detail": "Minor in Astronomy"
+    }
+  ],
+  "research_interests": [
+    "Geological remote sensing",
+    "Hyperspectral imaging",
+    "LiDAR–hyperspectral data fusion",
+    "Mineral exploration and smart mining",
+    "Planetary geology",
+    "Lunar and Martian rover payloads for in-situ geological observation",
+    "Underground and ground-based remote sensing",
+    "Rover and robotic-platform near-field remote sensing"
+  ],
+  "expertise": [
+    {
+      "label": "Hyperspectral remote sensing",
+      "text": "VNIR–SWIR preprocessing, radiometric calibration, georeferencing, endmember extraction, target detection, classification, and spectral mapping"
+    },
+    {
+      "label": "Sensors and platforms",
+      "text": "ground, UAV, satellite, and planetary hyperspectral data; LiDAR, IMU, stereo imaging, and field spectrometry"
+    },
+    {
+      "label": "Geospatial and scientific computing",
+      "text": "Python, PyTorch, MATLAB, IDL, ENVI, ArcGIS, QGIS, SNAP, ISIS, CloudCompare, and Linux-based workflows"
+    },
+    {
+      "label": "System development",
+      "text": "hyperspectral payload integration, embedded computing, and mobile sensing platforms"
+    }
+  ],
+  "publications": [
+    {
+      "id": "baik-2026-icarus",
+      "status": "Round 2 revision resubmitted",
+      "authors": ["Baik, H.", "Cho, E.", "Kim, K.-E."],
+      "year": 2026,
+      "title": "Linear spectral unmixing with iterative error analysis for mineral mapping of Theophilus Crater using Moon Mineralogy Mapper (M³) hyperspectral data",
+      "venue": "Icarus",
+      "details": "Manuscript under revision",
+      "tags": ["Planetary Remote Sensing", "Hyperspectral Imaging", "Spectral Unmixing", "Mineral Mapping"]
+    },
+    {
+      "id": "baik-2026-gis",
+      "authors": ["Baik, H.", "Park, J.", "Heo, J.", "Son, Y.-S.", "Kim, K.-E."],
+      "year": 2026,
+      "title": "Alignment and 3D georeferencing of tunnel coaxial hyperspectral scanning system data for mine drift exploration",
+      "venue": "Geo-spatial Information Science",
+      "details": "1–22",
+      "link_label": "DOI",
+      "url": "https://doi.org/10.1080/10095020.2026.2712863",
+      "tags": ["Underground Remote Sensing", "3D Remote Sensing", "Hyperspectral Imaging", "LiDAR–HSI Fusion"]
+    },
+    {
+      "id": "baik-2023-scirep",
+      "authors": ["Baik, H.", "Son, Y.-S.", "Kim, K.-E."],
+      "year": 2023,
+      "title": "A tunnel coaxial 3D hyperspectral scanning system for underground mine investigation",
+      "venue": "Scientific Reports",
+      "details": "13, 10417",
+      "link_label": "DOI",
+      "url": "https://doi.org/10.1038/s41598-023-37565-4",
+      "tags": ["Underground Remote Sensing", "3D Remote Sensing", "Hyperspectral Imaging", "System Development"]
+    },
+    {
+      "id": "son-2022-enggeo",
+      "authors": ["Son, Y.-S.", "Noh, S.-G.", "Bang, E.-S.", "Kim, K.-E.", "Cho, S.-J.", "Baik, H."],
+      "year": 2022,
+      "title": "Ground-based visible–near infrared hyperspectral imaging for monitoring cliff weathering of a volcanic island in Dokdo, South Korea",
+      "venue": "Engineering Geology",
+      "details": "309, 106854",
+      "link_label": "DOI",
+      "url": "https://doi.org/10.1016/j.enggeo.2022.106854",
+      "tags": ["Ground-based Remote Sensing", "Hyperspectral Imaging", "Geological Monitoring"]
+    },
+    {
+      "id": "lee-2022-ieee-access",
+      "authors": ["Lee, S.", "Kim, B.", "Baik, H.", "Cho, S.-J."],
+      "year": 2022,
+      "title": "A novel design and implementation of an autopilot terrain-following airship",
+      "venue": "IEEE Access",
+      "details": "10, 38428–38436",
+      "link_label": "DOI",
+      "url": "https://doi.org/10.1109/ACCESS.2022.3164737",
+      "tags": ["Robotics Remote Sensing", "Autonomous Platforms", "Terrain Following"]
+    },
+    {
+      "id": "son-2021-rs",
+      "authors": ["Son, Y.-S.", "You, B.-W.", "Bang, E.-S.", "Cho, S.-J.", "Kim, K.-E.", "Baik, H.", "Nam, H.-T."],
+      "year": 2021,
+      "title": "Mapping alteration mineralogy in eastern Tsogttsetsii, Mongolia, based on the WorldView-3 and field shortwave-infrared spectroscopy analyses",
+      "venue": "Remote Sensing",
+      "details": "13(5), 914",
+      "link_label": "DOI",
+      "url": "https://doi.org/10.3390/rs13050914",
+      "tags": ["Satellite Remote Sensing", "Mineral Mapping", "Field Spectroscopy"]
+    },
+    {
+      "id": "baik-2019-rs",
+      "authors": ["Baik, H.", "Son, Y.-S.", "Kim, K.-E."],
+      "year": 2019,
+      "title": "Detection of liquefaction phenomena from the 2017 Pohang (Korea) earthquake using remote sensing data",
+      "venue": "Remote Sensing",
+      "details": "11(18), 2184",
+      "link_label": "DOI",
+      "url": "https://doi.org/10.3390/rs11182184",
+      "tags": ["Satellite Remote Sensing", "Geological Hazards", "Liquefaction"]
+    },
+    {
+      "id": "baik-2016-kjrs",
+      "authors": ["Baik, H.", "Kim, K.-E."],
+      "year": 2016,
+      "title": "The investigation of mineral distribution at Spirit rover landing site: Gusev Crater by CRISM hyperspectral data and target detection algorithm",
+      "venue": "Korean Journal of Remote Sensing",
+      "details": "32(5), 403–412",
+      "link_label": "DOI",
+      "url": "https://doi.org/10.7780/kjrs.2016.32.5.1",
+      "tags": ["Planetary Remote Sensing", "Hyperspectral Imaging", "Mineral Mapping", "Mars"]
+    }
+  ],
+  "presentations": [
+    {
+      "id": "baik-2025-sejong",
+      "category": "Invited seminars",
+      "status": "Invited seminar",
+      "authors": ["Baik, H."],
+      "year": 2025,
+      "title": "Spectral remote sensing for resources development",
+      "venue": "Graduate School seminar, Department of Energy and Mineral Resources, Sejong University",
+      "details": "Seoul, December 18, 2025",
+      "tags": ["Geological Remote Sensing", "Hyperspectral Imaging", "Mineral Exploration", "Smart Mining"]
+    },
+    {
+      "id": "baik-2025-pnu",
+      "category": "Invited seminars",
+      "status": "Invited seminar",
+      "authors": ["Baik, H."],
+      "year": 2025,
+      "title": "Ground-based spectral remote sensing for geological and resource analysis",
+      "venue": "BK SEES Seminar, Pusan National University",
+      "details": "Busan, March 25, 2025",
+      "tags": ["Geological Remote Sensing", "Hyperspectral Imaging", "Mineral Exploration", "Near-field Sensing"]
+    },
+    {
+      "id": "baik-2025-uspace",
+      "category": "Professional contribution",
+      "status": "Professional article",
+      "authors": ["Baik, H."],
+      "year": 2025,
+      "title": "Introduction to the 3D hyperspectral scanning system for mine drifts and tunnels",
+      "venue": "U-Space",
+      "details": "81, 4–10. Webzine of the Korean Society for Rock Mechanics, December 2025",
+      "tags": ["Underground Remote Sensing", "3D Remote Sensing", "Hyperspectral Imaging", "System Development"]
+    },
+    {
+      "id": "baik-2025-joint",
+      "category": "Conference proceedings and abstracts",
+      "status": "Conference abstract",
+      "authors": ["Baik, H.", "Park, J.", "Heo, J.", "Son, Y.-S.", "Kim, K.-E."],
+      "year": 2025,
+      "title": "3D spectral mapping of ilmenite mine drift using a hyperspectral scanning system for underground mine and tunnel exploration",
+      "venue": "2025 Fall Joint Conference of KSMER · KSRM · KSEG · KSPE",
+      "details": "November 6, 2025",
+      "tags": ["Underground Remote Sensing", "3D Remote Sensing", "Hyperspectral Imaging", "Mineral Mapping"]
+    },
+    {
+      "id": "baik-2023-ksrs",
+      "category": "Conference proceedings and abstracts",
+      "status": "Conference abstract",
+      "authors": ["Baik, H.", "Son, Y.-S.", "Kim, K.-E."],
+      "year": 2023,
+      "title": "High-grade limestone whiteness mapping using a 3D hyperspectral remote sensing system in underground mines",
+      "venue": "Korean Society of Remote Sensing (KSRS) Fall General Assembly 2023",
+      "details": "November 16, 2023",
+      "tags": ["Underground Remote Sensing", "3D Remote Sensing", "Hyperspectral Imaging", "Mineral Mapping"]
+    },
+    {
+      "id": "son-2023-igarss",
+      "category": "Conference proceedings and abstracts",
+      "status": "Published proceeding",
+      "authors": ["Son, Y.-S.", "Lee, G.", "Kim, K.-E.", "Oh, I.-H.", "Heo, C.-H.", "Baik, H."],
+      "year": 2023,
+      "title": "The potential of hyperspectral data for detection lithium-bearing pegmatite: A case study at Uljin, South Korea",
+      "venue": "IGARSS 2023",
+      "details": "3690–3692",
+      "link_label": "DOI",
+      "url": "https://doi.org/10.1109/IGARSS52108.2023.10283433",
+      "tags": ["Mineral Exploration", "Hyperspectral Imaging", "Geological Mapping"]
+    },
+    {
+      "id": "baik-2018-isrs",
+      "category": "Conference proceedings and abstracts",
+      "status": "Conference abstract",
+      "authors": ["Baik, H.", "Kim, K.-E."],
+      "year": 2018,
+      "title": "Sentinel-2 mapping of liquefaction by the 2017 Pohang earthquake",
+      "venue": "International Symposium on Remote Sensing (ISRS) 2018",
+      "details": "May 2018",
+      "tags": ["Satellite Remote Sensing", "Geological Hazards", "Liquefaction"]
+    },
+    {
+      "id": "baik-2017-isprs",
+      "category": "Conference proceedings and abstracts",
+      "status": "Published proceeding",
+      "authors": ["Baik, H.", "Kim, J."],
+      "year": 2017,
+      "title": "The development of 3D sub-surface mapping scheme and its application to Martian lobate debris aprons",
+      "venue": "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
+      "details": "XLII-3/W1, 1–5",
+      "link_label": "DOI",
+      "url": "https://doi.org/10.5194/isprs-archives-XLII-3-W1-1-2017",
+      "tags": ["Planetary Remote Sensing", "3D Geological Mapping", "Mars"]
+    },
+    {
+      "id": "baik-2017-isrs",
+      "category": "Conference proceedings and abstracts",
+      "status": "Conference abstract",
+      "authors": ["Baik, H.", "Cho, E.-J.", "Kim, K.-E."],
+      "year": 2017,
+      "title": "The investigation of mineral distribution at lunar granular flow by Moon Mineralogy Mapper hyperspectral imagery and iterative error analysis spectral unmixing algorithm",
+      "venue": "International Symposium on Remote Sensing (ISRS) 2017",
+      "details": "May 18, 2017",
+      "link_label": "Program",
+      "url": "https://www.rssj.or.jp/isrs2017/wp-content/uploads/sites/3/2017/05/ISRS2017_Program_20170523_Oral.pdf",
+      "tags": ["Planetary Remote Sensing", "Hyperspectral Imaging", "Spectral Unmixing", "Moon"]
+    },
+    {
+      "id": "kim-2016-agu-sharad",
+      "category": "Conference proceedings and abstracts",
+      "status": "Conference abstract",
+      "authors": ["Kim, J.", "Baik, H."],
+      "year": 2016,
+      "title": "The investigation of improved SHARAD profiles over Martian lobate debris aprons",
+      "venue": "American Geophysical Union Fall Meeting 2016",
+      "details": "December 2016",
+      "tags": ["Planetary Geology", "Radar Sounding", "Subsurface Mapping", "Mars"]
+    },
+    {
+      "id": "vangasselt-2016-agu",
+      "category": "Conference proceedings and abstracts",
+      "status": "Conference abstract",
+      "authors": ["van Gasselt, S.", "Kim, J.", "Baik, H."],
+      "year": 2016,
+      "title": "Euripus Mons – landform evolution and climate constraints in Promethei Terra",
+      "venue": "American Geophysical Union Fall Meeting 2016",
+      "details": "December 2016",
+      "tags": ["Planetary Geology", "Landform Evolution", "Paleoclimate", "Mars"]
+    },
+    {
+      "id": "baik-2016-ksrs",
+      "category": "Conference proceedings and abstracts",
+      "status": "Conference abstract",
+      "authors": ["Baik, H.", "Kim, K.-E."],
+      "year": 2016,
+      "title": "Investigation of mineral distribution in lobate debris aprons of Mars using CRISM hyperspectral data",
+      "venue": "Korean Society of Remote Sensing Fall General Assembly 2016",
+      "details": "November 2016",
+      "tags": ["Planetary Remote Sensing", "Hyperspectral Imaging", "Mineral Mapping", "Mars"]
+    },
+    {
+      "id": "kim-2016-spie",
+      "category": "Conference proceedings and abstracts",
+      "status": "Published proceeding",
+      "authors": ["Kim, K.-E.", "Lee, S.-S.", "Baik, H."],
+      "year": 2016,
+      "title": "Iterative matched filtering for detection of non-rare target materials in hyperspectral imagery",
+      "venue": "Image and Signal Processing for Remote Sensing XXII, Proceedings of SPIE",
+      "details": "10004, 100040E",
+      "link_label": "DOI",
+      "url": "https://doi.org/10.1117/12.2240638",
+      "tags": ["Hyperspectral Imaging", "Target Detection", "Spectral Analysis"]
+    },
+    {
+      "id": "kim-2016-marspolar",
+      "category": "Conference proceedings and abstracts",
+      "status": "Conference abstract",
+      "authors": ["Kim, J.", "Baik, H.", "van Gasselt, S."],
+      "year": 2016,
+      "title": "Constraints on landscape formation of Euripus Mons, Mars, from topographic and radar data analysis",
+      "venue": "Sixth International Conference on Mars Polar Science and Exploration",
+      "details": "LPI Contribution No. 1926, abstract 6068, September 5–9, 2016",
+      "link_label": "Abstract",
+      "url": "https://www.hou.usra.edu/meetings/marspolar2016/pdf/6068.pdf",
+      "tags": ["Planetary Geology", "3D Topography", "Radar Sounding", "Mars"]
+    },
+    {
+      "id": "vangasselt-2016-egu",
+      "category": "Conference proceedings and abstracts",
+      "status": "Conference abstract",
+      "authors": ["van Gasselt, S.", "Kim, J.", "Baik, H."],
+      "year": 2016,
+      "title": "Euripus Mons – landform evolution and climate constraints in Promethei Terra",
+      "venue": "EGU General Assembly 2016",
+      "details": "EGU2016-9627, April 17–22, 2016",
+      "link_label": "Abstract",
+      "url": "https://meetingorganizer.copernicus.org/EGU2016/EGU2016-9627.pdf",
+      "tags": ["Planetary Geology", "Landform Evolution", "Paleoclimate", "Mars"]
+    },
+    {
+      "id": "kim-2015-agu-dunes",
+      "category": "Conference proceedings and abstracts",
+      "status": "Conference abstract",
+      "authors": ["Kim, J.", "Baik, H."],
+      "year": 2015,
+      "title": "The investigation of moving dunes over Mars using very high resolution topography and sub-pixel co-registration method",
+      "venue": "American Geophysical Union Fall Meeting 2015",
+      "details": "P53D-2158, December 18, 2015",
+      "link_label": "Abstract",
+      "url": "https://studio.m-anage.com/agu/fm15/webprogram/Paper85318.html",
+      "tags": ["Planetary Geology", "3D Topography", "Change Detection", "Mars"]
+    }
+  ],
+  "patents": [
+    {
+      "id": "tchss-kr",
+      "status": "Registered patent",
+      "title": "Hyperspectral Scanning System for Underground Mine Shaft and Tunnel",
+      "fields": [
+        ["Jurisdiction", "Republic of Korea"],
+        ["Patent number", "10-2637641"],
+        ["Application number", "10-2022-0120273"],
+        ["Registration date", "February 13, 2024"],
+        ["Patent holder", "Korea Institute of Geoscience and Mineral Resources (KIGAM)"],
+        ["Inventors", "Hyunseob Baik, Kwang-Eun Kim, and Young-Sun Son"]
+      ],
+      "link_label": "Official KIGAM record",
+      "url": "https://www.kigam.re.kr/intell.es?act=view&mid=a10408020000&rchrstno=P22-032-KR",
+      "tags": ["Underground Remote Sensing", "Hyperspectral Imaging", "3D Remote Sensing", "System Development"]
+    },
+    {
+      "id": "tchss-au",
+      "status": "Accepted application",
+      "title": "Hyperspectral Scanning System for Underground Mine Galleries and Tunnels",
+      "fields": [
+        ["Jurisdiction", "Australia"],
+        ["Australian application number", "2023344510"],
+        ["Filing date", "August 30, 2023"],
+        ["Acceptance date", "June 17, 2026"],
+        ["Applicant", "Korea Institute of Geoscience and Mineral Resources"],
+        ["Inventors", "Hyun-Seob Baik, Young-Sun Son, and Gwang-Eun Kim"],
+        ["PCT application / WIPO publication", "PCT/KR2023/012847 / WO2024/063370"]
+      ],
+      "link_label": "Official IP Australia record",
+      "url": "https://ipsearch.ipaustralia.gov.au/patents/2023344510",
+      "note": "The official record identifies this application as Accepted; it is not presented as a granted Australian patent.",
+      "tags": ["Underground Remote Sensing", "Hyperspectral Imaging", "3D Remote Sensing", "International Patent"]
+    }
+  ],
+  "technology_transfer": [
+    {
+      "id": "tchss-transfer-2024",
+      "status": "Transferred technology",
+      "title": "Tunnel Coaxial 3D Hyperspectral Scanning System (TCHSS)",
+      "text": "The TCHSS technology was transferred to GeoGeny Consultants Group Inc. in December 2024.",
+      "project_url": "projects.qmd#tunnel-coaxial-3d-hyperspectral-scanning-system"
+    }
+  ],
+  "awards": [
+    "Best Student Presentation Award, Korean Society of Remote Sensing Fall General Assembly, 2023",
+    "Best R&D Student, University of Science and Technology orientation, 2018",
+    "Best Student Presentation Award, Korean Society of Remote Sensing Fall General Assembly, 2016"
+  ]
+}

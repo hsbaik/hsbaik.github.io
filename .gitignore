@@ -1,5 +1,7 @@
 /.quarto/
 /_site/
+/output/
+/downloads/*.pdf
 /userdata/
 /tmp/
 /_content/

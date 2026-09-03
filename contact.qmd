@@ -4,15 +4,17 @@ description: "Professional contact and researcher-profile links for Hyunseob Bai
 toc: false
 ---
 
+<!-- Generated from data/cv.json by scripts/build_cv.py. Do not edit directly. -->
+
 ## Professional contact
 
-**Hyunseob Baik**  
-Post-Doc. Researcher  
-Mineral Exploration and Mining Research Center  
+**Hyunseob Baik**<br>
+Post-Doc. Researcher<br>
+Mineral Exploration and Mining Research Center<br>
 Korea Institute of Geoscience and Mineral Resources (KIGAM)
 
-**Email**  
-[hsbaik@kigam.re.kr](mailto:hsbaik@kigam.re.kr)  
+**Email**<br>
+[hsbaik@kigam.re.kr](mailto:hsbaik@kigam.re.kr)<br>
 [hsbaik1116@gmail.com](mailto:hsbaik1116@gmail.com)
 
 ## Research profiles

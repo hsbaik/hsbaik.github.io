@@ -3,36 +3,37 @@ title: "CV"
 description: "Web CV and downloadable curriculum vitae for Hyunseob Baik."
 ---
 
+<!-- Generated from data/cv.json by scripts/build_cv.py. Do not edit directly. -->
+
 ::: {.cv-intro}
-**Hyunseob Baik**  
-Post-Doc. Researcher  
-Mineral Exploration and Mining Research Center  
+**Hyunseob Baik**<br>
+Post-Doc. Researcher<br>
+Mineral Exploration and Mining Research Center<br>
 Korea Institute of Geoscience and Mineral Resources (KIGAM)
 :::
 
+[Download current PDF CV](downloads/Hyunseob_Baik_CV.pdf){.btn .btn-primary role="button" download="Hyunseob_Baik_CV.pdf"}
+
+The PDF is generated from the same structured data as this web CV during each site build.
+
 ## Appointments
 
-**Postdoctoral Researcher** · KIGAM  
+**Postdoctoral Researcher** · KIGAM<br>
 Mineral Exploration and Mining Research Center, Resources Exploration and Development Research Division · May 2025–present
 
-**Student Researcher** · KIGAM  
+**Student Researcher** · KIGAM<br>
 Mineral Exploration and Mining Research Center, Mineral Resources Research Division · March 2016–February 2025
 
-**Undergraduate Researcher (Intern)** · University of Seoul  
+**Undergraduate Researcher (Intern)** · University of Seoul<br>
 Planetary Remote Sensing Laboratory, Department of Geoinformatics · July 2015–February 2016
 
 ## Education
 
-**Ph.D. in Resources Engineering**, University of Science and Technology (UST), 2025  
-KIGAM School · Advisor: Kwang-Eun Kim  
-Dissertation: *Development of Tunnel Coaxial 3D Hyperspectral Scanning System and Its Experimental Test in Underground Mines*
+**Ph.D. in Resources Engineering** · University of Science and Technology (UST) · 2025 · KIGAM School · Advisor: Kwang-Eun Kim · **Dissertation:** *Development of Tunnel Coaxial 3D Hyperspectral Scanning System and Its Experimental Test in Underground Mines*
 
-**M.S. in Geophysical Exploration**, University of Science and Technology (UST), 2018  
-KIGAM School · Advisor: Kwang-Eun Kim  
-Thesis: *Application of Iterative Error Analysis on Moon Mineralogy Mapper (M3) Lunar Hyperspectral Data for Mineral Distribution Mapping*
+**M.S. in Geophysical Exploration** · University of Science and Technology (UST) · 2018 · KIGAM School · Advisor: Kwang-Eun Kim · **Thesis:** *Application of Iterative Error Analysis on Moon Mineralogy Mapper (M3) Lunar Hyperspectral Data for Mineral Distribution Mapping*
 
-**B.S. in Earth System Sciences**, Yonsei University, 2016  
-Minor in Astronomy
+**B.S. in Earth System Sciences** · Yonsei University · 2016 · Minor in Astronomy
 
 ## Research interests
 
@@ -49,7 +50,7 @@ Minor in Astronomy
 
 - **Hyperspectral remote sensing:** VNIR–SWIR preprocessing, radiometric calibration, georeferencing, endmember extraction, target detection, classification, and spectral mapping
 - **Sensors and platforms:** ground, UAV, satellite, and planetary hyperspectral data; LiDAR, IMU, stereo imaging, and field spectrometry
-- **Geospatial and scientific computing:** Python, TensorFlow, MATLAB, IDL, ENVI, ArcGIS, QGIS, SNAP, ISIS, CloudCompare, and Linux-based workflows
+- **Geospatial and scientific computing:** Python, PyTorch, MATLAB, IDL, ENVI, ArcGIS, QGIS, SNAP, ISIS, CloudCompare, and Linux-based workflows
 - **System development:** hyperspectral payload integration, embedded computing, and mobile sensing platforms
 
 ## Patents and technology transfer
@@ -57,11 +58,11 @@ Minor in Astronomy
 See [Patents & Technology Transfer](patents.qmd) for the dedicated research-output record.
 
 **Hyperspectral Scanning System for Underground Mine Shaft and Tunnel**  
-Republic of Korea patent 10-2637641 · Registered February 13, 2024 · Patent holder: KIGAM · Principal inventor: Hyunseob Baik  
+Registered patent · Republic of Korea · 10-2637641 · February 13, 2024<br>
 [Official KIGAM record](https://www.kigam.re.kr/intell.es?act=view&mid=a10408020000&rchrstno=P22-032-KR)
 
 **Hyperspectral Scanning System for Underground Mine Galleries and Tunnels**  
-Australian patent application 2023344510 · Accepted June 17, 2026 · Applicant: KIGAM · Inventors: Hyun-Seob Baik, Young-Sun Son, and Gwang-Eun Kim  
+Accepted application · Australia · 2023344510 · June 17, 2026<br>
 [Official IP Australia record](https://ipsearch.ipaustralia.gov.au/patents/2023344510)
 
 The TCHSS technology was transferred to GeoGeny Consultants Group Inc. in December 2024.
@@ -74,4 +75,4 @@ The TCHSS technology was transferred to GeoGeny Consultants Group Inc. in Decemb
 
 ## Research outputs
 
-See [Publications](publications.qmd), [Proceedings & Presentations](presentations.qmd), [Patents & Technology Transfer](patents.qmd), and [Data & Software Repositories](repositories.qmd). The publication list includes a 2026 manuscript currently under revision at *Icarus*. A downloadable CV will be added after the 2025 source document is updated and approved for public release.
+See [Publications](publications.qmd), [Proceedings & Presentations](presentations.qmd), [Patents & Technology Transfer](patents.qmd), and [Data & Software Repositories](repositories.qmd). The publication list includes a 2026 manuscript currently under revision at *Icarus*.

@@ -27,6 +27,14 @@ jobs:
         with:
           version: 1.10.18
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build web CV and PDF
+        run: python scripts/build_cv.py --compile
+
       - name: Render website
         run: quarto render
 
