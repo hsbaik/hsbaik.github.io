@@ -67,8 +67,7 @@ website:
     border: true
     left: "© Hyunseob Baik"
     right:
-      - text: "Research"
-        href: research.qmd
+      - text: "Last updated: September 4, 2026"
       - text: "Contact"
         href: contact.qmd
   back-to-top-navigation: true

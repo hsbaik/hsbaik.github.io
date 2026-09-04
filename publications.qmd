@@ -63,4 +63,4 @@ Son, Y.-S., You, B.-W., Bang, E.-S., Cho, S.-J., Kim, K.-E., **Baik, H.**, & Nam
 
 [Google Scholar](https://scholar.google.co.kr/citations?user=Fl7F5yIAAAAJ) · [ORCID](https://orcid.org/0000-0002-9282-6947) · [ResearchGate](https://www.researchgate.net/profile/Hyunseob-Baik/research)
 
-Citation counts are intentionally omitted because they change over time. The structured CV data are maintained in `data/cv.json`; `data/publications.bib` remains available for citation-oriented workflows.
+Citation counts are intentionally omitted because they change over time. The structured CV data are maintained in `data/cv.json`.

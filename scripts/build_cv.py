@@ -10,6 +10,7 @@ import shutil
 import subprocess
 import sys
 from collections import defaultdict
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -32,6 +33,8 @@ def load_data() -> dict[str, Any]:
 
 def validate(data: dict[str, Any]) -> None:
     required = {
+        "updated",
+        "selected_publication_ids",
         "person",
         "appointments",
         "education",
@@ -70,6 +73,19 @@ def validate(data: dict[str, Any]) -> None:
     leaked = forbidden.intersection(person)
     if leaked:
         raise ValueError(f"Private contact fields are not allowed: {', '.join(sorted(leaked))}")
+
+    selected_ids = data["selected_publication_ids"]
+    if len(selected_ids) != 3 or len(set(selected_ids)) != 3:
+        raise ValueError("selected_publication_ids must contain exactly three unique ids")
+    publication_ids = {item["id"] for item in data["publications"]}
+    unknown_selected = sorted(set(selected_ids) - publication_ids)
+    if unknown_selected:
+        raise ValueError(f"Unknown selected publication ids: {', '.join(unknown_selected)}")
+
+
+def format_long_date(value: str) -> str:
+    parsed = date.fromisoformat(value)
+    return f"{parsed.strftime('%B')} {parsed.day}, {parsed.year}"
 
 
 def authors_md(authors: list[str]) -> str:
@@ -141,7 +157,7 @@ Journal articles and manuscripts are listed newest first without year-based sect
 
 {profiles}
 
-Citation counts are intentionally omitted because they change over time. The structured CV data are maintained in `data/cv.json`; `data/publications.bib` remains available for citation-oriented workflows.
+Citation counts are intentionally omitted because they change over time. The structured CV data are maintained in `data/cv.json`.
 '''
     write_text(ROOT / "publications.qmd", text)
 
@@ -247,13 +263,11 @@ def generate_cv_page(data: dict[str, Any]) -> None:
     interests = "\n".join(f"- {item}" for item in data["research_interests"])
     expertise = "\n".join(f"- **{item['label']}:** {item['text']}" for item in data["expertise"])
     awards = "\n".join(f"- {item}" for item in data["awards"])
-    patent_summary = "\n\n".join(
-        f"**{item['title']}**  \n{item['status']} · "
-        + " · ".join(value for label, value in item["fields"] if label in {"Jurisdiction", "Patent number", "Australian application number", "Registration date", "Acceptance date"})
-        + f"<br>\n[{item['link_label']}]({item['url']})"
-        for item in data["patents"]
+    publication_lookup = {item["id"]: item for item in data["publications"]}
+    selected_publications = "\n\n".join(
+        output_entry_md(publication_lookup[item_id], publication=True)
+        for item_id in data["selected_publication_ids"]
     )
-    transfer_summary = "\n\n".join(item["text"] for item in data["technology_transfer"])
 
     text = f'''---
 title: "CV"
@@ -289,21 +303,19 @@ The PDF is generated from the same structured data as this web CV during each si
 
 {expertise}
 
-## Patents and technology transfer
+## Research outputs
 
-See [Patents & Technology Transfer](patents.qmd) for the dedicated research-output record.
+### Selected publications
 
-{patent_summary}
+{selected_publications}
 
-{transfer_summary}
+::: {{.link-panel}}
+[All publications](publications.qmd) · [Proceedings & Presentations](presentations.qmd) · [Patents & Technology Transfer](patents.qmd) · [Data & Software Repositories](repositories.qmd)
+:::
 
 ## Selected awards
 
 {awards}
-
-## Research outputs
-
-See [Publications](publications.qmd), [Proceedings & Presentations](presentations.qmd), [Patents & Technology Transfer](patents.qmd), and [Data & Software Repositories](repositories.qmd). The publication list includes a 2026 manuscript currently under revision at *Icarus*.
 '''
     write_text(ROOT / "cv.qmd", text)
 
@@ -417,6 +429,7 @@ def typst_patent(item: dict[str, Any]) -> str:
 
 def generate_typst(data: dict[str, Any]) -> None:
     person = data["person"]
+    last_updated = format_long_date(data["updated"])
     profile_lookup = {item["label"]: item["url"] for item in person["profiles"]}
     email_links = " #text(fill: muted, \"·\") ".join(
         f'#link({ts("mailto:" + email)})[#text(fill: accent, {ts(email)})]'
@@ -517,7 +530,11 @@ def generate_typst(data: dict[str, Any]) -> None:
   columns: (1fr, auto),
   align: (left, right),
   [#text(size: 25pt, weight: "bold", {ts(person["name"])})],
-  [#text(size: 13pt, fill: muted, {ts("Curriculum Vitae")})]
+  [#align(right)[
+    #text(size: 13pt, fill: muted, {ts("Curriculum Vitae")})
+    #linebreak()
+    #text(size: 8pt, fill: muted, {ts("Last updated: " + last_updated)})
+  ]]
 )
 #v(2pt)
 #line(length: 100%, stroke: 1pt + accent)
@@ -589,6 +606,7 @@ def compile_pdf(quarto: str) -> None:
     ]
     subprocess.run(command, cwd=ROOT, check=True)
     shutil.copy2(PDF_PATH, DOWNLOAD_PATH)
+    TYPST_PATH.unlink(missing_ok=True)
     print(f"Generated {PDF_PATH.relative_to(ROOT)}")
     print(f"Copied {DOWNLOAD_PATH.relative_to(ROOT)}")
 

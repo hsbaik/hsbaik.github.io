@@ -8,7 +8,7 @@ Phase 3 deployment-ready researcher homepage built with [Quarto](https://quarto.
 - Responsive navigation and layout
 - Local full-text search, social-card metadata, accessible focus states, and a lightweight custom theme
 - Verified professional profile, education, appointments, publications, proceedings, selected awards, patents, technology transfer, repository availability, and public contact links
-- Canonical CV content in `data/cv.json`, a structured bibliography in `data/publications.bib`, and an optimized profile image derived from the supplied original
+- Canonical CV content in `data/cv.json` and an optimized profile image derived from the supplied original
 - An automatically generated, downloadable PDF CV built from the same data as the web CV
 - Repository target: [hsbaik/hsbaik.github.io](https://github.com/hsbaik/hsbaik.github.io)
 - Least-privilege GitHub Actions workflow for render checks and Pages deployment
@@ -43,15 +43,13 @@ The rendered output is written to `_site/`. That directory is intentionally igno
 
 ## Content workflow
 
-1. Resolve the remaining items in `_content/content-todo.yml` using owner-provided or official sources.
-2. Edit `data/cv.json` for CV, contact, publication, presentation, patent, technology-transfer, or award updates. The generated `cv.qmd`, `contact.qmd`, `publications.qmd`, `presentations.qmd`, and `patents.qmd` files should not be edited directly.
-3. Run `python scripts/build_cv.py --compile` after data changes. This rebuilds the web pages, `output/pdf/Hyunseob_Baik_CV.pdf`, and the site download copy.
-4. Keep `data/publications.bib` synchronized when citation-oriented workflows require BibTeX.
-5. Add media only with descriptive alternative text and confirmed credits or licenses.
-6. Render locally and review desktop and mobile layouts.
-7. Run the deployment checklist below before publishing.
+1. Edit `data/cv.json` for CV, contact, publication, presentation, patent, technology-transfer, or award updates. The generated `cv.qmd`, `contact.qmd`, `publications.qmd`, `presentations.qmd`, and `patents.qmd` files should not be edited directly.
+2. Run `python scripts/build_cv.py --compile` after data changes. This rebuilds the web pages, `output/pdf/Hyunseob_Baik_CV.pdf`, and the site download copy.
+3. Add media only with descriptive alternative text and confirmed credits or licenses.
+4. Render locally and review desktop and mobile layouts.
+5. Run the deployment checklist below before publishing.
 
-The `_quarto.yml` `project.render` list is explicit. This keeps planning files, the handoff, and `_content/` out of the generated site.
+The `_quarto.yml` `project.render` list is explicit, so only intended site pages are rendered.
 
 ## Deployment checklist
 
@@ -59,7 +57,6 @@ The `_quarto.yml` `project.render` list is explicit. This keeps planning files, 
 - Recheck the confirmed `site-url` and planned `repo-url` in `_quarto.yml`.
 - Confirm `robots.txt` and `sitemap.xml` use `https://hsbaik.github.io/`.
 - Rebuild and review the current PDF CV, and verify any additional 2026 research outputs.
-- Resolve every item in `_content/content-todo.yml` and each `TODO(deployment)` marker.
 - Check copyright, collaborator consent, sensitive locations, and licenses.
 - Run `quarto render`, inspect `_site/`, and test internal links and missing assets.
 - Review `.github/workflows/publish.yml`; pull requests render only, while pushes to `main` render and deploy.

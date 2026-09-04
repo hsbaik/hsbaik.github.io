@@ -53,26 +53,36 @@ Planetary Remote Sensing Laboratory, Department of Geoinformatics · July 2015�
 - **Geospatial and scientific computing:** Python, PyTorch, MATLAB, IDL, ENVI, ArcGIS, QGIS, SNAP, ISIS, CloudCompare, and Linux-based workflows
 - **System development:** hyperspectral payload integration, embedded computing, and mobile sensing platforms
 
-## Patents and technology transfer
+## Research outputs
 
-See [Patents & Technology Transfer](patents.qmd) for the dedicated research-output record.
+### Selected publications
 
-**Hyperspectral Scanning System for Underground Mine Shaft and Tunnel**  
-Registered patent · Republic of Korea · 10-2637641 · February 13, 2024<br>
-[Official KIGAM record](https://www.kigam.re.kr/intell.es?act=view&mid=a10408020000&rchrstno=P22-032-KR)
+::: {.publication-entry}
+**Baik, H.**, Park, J., Heo, J., Son, Y.-S., & Kim, K.-E. (2026). Alignment and 3D georeferencing of tunnel coaxial hyperspectral scanning system data for mine drift exploration. *Geo-spatial Information Science*, 1–22. [DOI](https://doi.org/10.1080/10095020.2026.2712863)
 
-**Hyperspectral Scanning System for Underground Mine Galleries and Tunnels**  
-Accepted application · Australia · 2023344510 · June 17, 2026<br>
-[Official IP Australia record](https://ipsearch.ipaustralia.gov.au/patents/2023344510)
+<div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Underground Remote Sensing</span><span class="pub-tag">3D Remote Sensing</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">LiDAR–HSI Fusion</span></div>
+:::
 
-The TCHSS technology was transferred to GeoGeny Consultants Group Inc. in December 2024.
+::: {.publication-entry}
+**Baik, H.**, Son, Y.-S., & Kim, K.-E. (2023). A tunnel coaxial 3D hyperspectral scanning system for underground mine investigation. *Scientific Reports*, 13, 10417. [DOI](https://doi.org/10.1038/s41598-023-37565-4)
+
+<div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Underground Remote Sensing</span><span class="pub-tag">3D Remote Sensing</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">System Development</span></div>
+:::
+
+::: {.publication-entry}
+<span class="status-label">Round 2 revision resubmitted</span>
+
+**Baik, H.**, Cho, E., & Kim, K.-E. (2026). Linear spectral unmixing with iterative error analysis for mineral mapping of Theophilus Crater using Moon Mineralogy Mapper (M³) hyperspectral data. Manuscript under revision at *Icarus*.
+
+<div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Planetary Remote Sensing</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">Spectral Unmixing</span><span class="pub-tag">Mineral Mapping</span></div>
+:::
+
+::: {.link-panel}
+[All publications](publications.qmd) · [Proceedings & Presentations](presentations.qmd) · [Patents & Technology Transfer](patents.qmd) · [Data & Software Repositories](repositories.qmd)
+:::
 
 ## Selected awards
 
 - Best Student Presentation Award, Korean Society of Remote Sensing Fall General Assembly, 2023
 - Best R&D Student, University of Science and Technology orientation, 2018
 - Best Student Presentation Award, Korean Society of Remote Sensing Fall General Assembly, 2016
-
-## Research outputs
-
-See [Publications](publications.qmd), [Proceedings & Presentations](presentations.qmd), [Patents & Technology Transfer](patents.qmd), and [Data & Software Repositories](repositories.qmd). The publication list includes a 2026 manuscript currently under revision at *Icarus*.
