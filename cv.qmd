@@ -70,9 +70,9 @@ Planetary Remote Sensing Laboratory, Department of Geoinformatics · July 2015�
 :::
 
 ::: {.publication-entry}
-<span class="status-label">Round 2 revision resubmitted</span>
+<span class="status-label">Accepted</span>
 
-**Baik, H.**, Cho, E., & Kim, K.-E. (2026). Linear spectral unmixing with iterative error analysis for mineral mapping of Theophilus Crater using Moon Mineralogy Mapper (M³) hyperspectral data. Manuscript under revision at *Icarus*.
+**Baik, H.**, Cho, E., & Kim, K.-E. (2026). Linear spectral unmixing with iterative error analysis for mineral mapping of Theophilus Crater using Moon Mineralogy Mapper (M³) hyperspectral data. *Icarus*, Accepted for publication.
 
 <div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Planetary Remote Sensing</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">Spectral Unmixing</span><span class="pub-tag">Mineral Mapping</span></div>
 :::

@@ -7,33 +7,23 @@ description: "Conference proceedings and abstracts, invited seminars, and profes
 
 Research outputs are grouped by contribution type and listed newest first within each section. **Hyunseob Baik** is highlighted in each entry. Published identifiers and links are included only when they have been verified.
 
-## Invited seminars
-
-::: {.publication-entry}
-<span class="status-label">Invited seminar</span>
-
-**Baik, H.** (2025). Spectral remote sensing for resources development. *Graduate School seminar, Department of Energy and Mineral Resources, Sejong University*, Seoul, December 18, 2025.
-
-<div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Geological Remote Sensing</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">Mineral Exploration</span><span class="pub-tag">Smart Mining</span></div>
-:::
-
-::: {.publication-entry}
-<span class="status-label">Invited seminar</span>
-
-**Baik, H.** (2025). Ground-based spectral remote sensing for geological and resource analysis. *BK SEES Seminar, Pusan National University*, Busan, March 25, 2025.
-
-<div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Geological Remote Sensing</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">Mineral Exploration</span><span class="pub-tag">Near-field Sensing</span></div>
-:::
-## Professional contribution
-
-::: {.publication-entry}
-<span class="status-label">Professional article</span>
-
-**Baik, H.** (2025). Introduction to the 3D hyperspectral scanning system for mine drifts and tunnels. *U-Space*, 81, 4–10. Webzine of the Korean Society for Rock Mechanics, December 2025.
-
-<div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Underground Remote Sensing</span><span class="pub-tag">3D Remote Sensing</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">System Development</span></div>
-:::
 ## Conference proceedings and abstracts
+
+::: {.publication-entry}
+<span class="status-label">Scheduled conference abstract</span>
+
+**Baik, H.**, Kim, K.-E., & Lim, J. (2026). GeoPRISM: Introducing Concept of 3D Planetary Geological Rover Exploration Based on Proximal Hyperspectral-LiDAR Integrated Remote Sensing System. *2026 Joint Fall Meeting of Korean Geological Societies*, November 27–30, 2026.
+
+<div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Planetary Geology</span><span class="pub-tag">Robotic Remote Sensing</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">LiDAR–HSI Fusion</span><span class="pub-tag">Rover Payloads</span></div>
+:::
+
+::: {.publication-entry}
+<span class="status-label">Scheduled conference abstract</span>
+
+**Baik, H.**, Park, J., Hong, J., & Jeong, S. (2026). Intelligent Rover and Multispectral-Fluorescence Technologies for Underground Exploration of Korean Fluorite Mines. *2026 Fall Joint Conference of KSMER · KSRM · KSEG · KSPE*, November 5, 2026.
+
+<div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Robotic Remote Sensing</span><span class="pub-tag">Underground Remote Sensing</span><span class="pub-tag">Multispectral Imaging</span><span class="pub-tag">Fluorescence Sensing</span><span class="pub-tag">Mineral Exploration</span></div>
+:::
 
 ::: {.publication-entry}
 <span class="status-label">Conference abstract</span>
@@ -137,4 +127,30 @@ van Gasselt, S., Kim, J., & **Baik, H.** (2016). Euripus Mons – landform evolu
 Kim, J., & **Baik, H.** (2015). The investigation of moving dunes over Mars using very high resolution topography and sub-pixel co-registration method. *American Geophysical Union Fall Meeting 2015*, P53D-2158, December 18, 2015. [Abstract](https://studio.m-anage.com/agu/fm15/webprogram/Paper85318.html)
 
 <div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Planetary Geology</span><span class="pub-tag">3D Topography</span><span class="pub-tag">Change Detection</span><span class="pub-tag">Mars</span></div>
+:::
+## Invited seminars
+
+::: {.publication-entry}
+<span class="status-label">Invited seminar</span>
+
+**Baik, H.** (2025). Spectral remote sensing for resources development. *Graduate School seminar, Department of Energy and Mineral Resources, Sejong University*, Seoul, December 18, 2025.
+
+<div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Geological Remote Sensing</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">Mineral Exploration</span><span class="pub-tag">Smart Mining</span></div>
+:::
+
+::: {.publication-entry}
+<span class="status-label">Invited seminar</span>
+
+**Baik, H.** (2025). Ground-based spectral remote sensing for geological and resource analysis. *BK SEES Seminar, Pusan National University*, Busan, March 25, 2025.
+
+<div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Geological Remote Sensing</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">Mineral Exploration</span><span class="pub-tag">Near-field Sensing</span></div>
+:::
+## Professional contribution
+
+::: {.publication-entry}
+<span class="status-label">Professional article</span>
+
+**Baik, H.** (2025). Introduction to the 3D hyperspectral scanning system for mine drifts and tunnels. *U-Space*, 81, 4–10. Webzine of the Korean Society for Rock Mechanics, December 2025.
+
+<div class="pub-tags" aria-label="Research topics"><span class="pub-tag">Underground Remote Sensing</span><span class="pub-tag">3D Remote Sensing</span><span class="pub-tag">Hyperspectral Imaging</span><span class="pub-tag">System Development</span></div>
 :::
